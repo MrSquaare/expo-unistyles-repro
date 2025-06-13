@@ -75,7 +75,7 @@ importers:
         specifier: ~2.24.0
         version: 2.24.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       react-native-nitro-modules:
-        specifier: ^0.26.2
+        specifier: 0.26.2
         version: 0.26.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       react-native-reanimated:
         specifier: ~3.17.4
@@ -86,9 +86,6 @@ importers:
       react-native-screens:
         specifier: ~4.11.1
         version: 4.11.1(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react-native-unistyles:
-        specifier: 3.0.0-rc.5
-        version: 3.0.0-rc.5(@react-native/normalize-colors@0.79.3)(react-native-edge-to-edge@1.6.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-nitro-modules@0.26.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-reanimated@3.17.5(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       react-native-web:
         specifier: ~0.20.0
         version: 0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -3224,20 +3221,6 @@ packages:
     peerDependencies:
       react: '*'
       react-native: '*'
-
-  react-native-unistyles@3.0.0-rc.5:
-    resolution: {integrity: sha512-pDCJkTYf6NUFIm6pfcmhbo0ZTkQiRPlEm96vBqk8wMtz283nDX0XXvC+C8sk6QOahkCy+dMFOb3VZpE783aysQ==}
-    engines: {node: '>= 18.0.0'}
-    peerDependencies:
-      '@react-native/normalize-colors': '*'
-      react: '*'
-      react-native: '>=0.76.0'
-      react-native-edge-to-edge: '*'
-      react-native-nitro-modules: '*'
-      react-native-reanimated: '*'
-    peerDependenciesMeta:
-      react-native-reanimated:
-        optional: true
 
   react-native-web@0.20.0:
     resolution: {integrity: sha512-OOSgrw+aON6R3hRosCau/xVxdLzbjEcsLysYedka0ZON4ZZe6n9xgeN9ZkoejhARM36oTlUgHIQqxGutEJ9Wxg==}
@@ -7805,16 +7788,6 @@ snapshots:
       react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
       react-native-is-edge-to-edge: 1.1.7(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       warn-once: 0.1.1
-
-  react-native-unistyles@3.0.0-rc.5(@react-native/normalize-colors@0.79.3)(react-native-edge-to-edge@1.6.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-nitro-modules@0.26.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-reanimated@3.17.5(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0):
-    dependencies:
-      '@react-native/normalize-colors': 0.79.3
-      react: 19.0.0
-      react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
-      react-native-edge-to-edge: 1.6.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react-native-nitro-modules: 0.26.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-    optionalDependencies:
-      react-native-reanimated: 3.17.5(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
 
   react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
