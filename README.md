@@ -33,12 +33,20 @@ import { StyleSheet } from 'react-native-unistyles'
 
 StyleSheet.configure({})
 ```
-5. Create `index.ts` with the following content:
+5. Create `./index.ts` with the following content:
 ```ts
 import 'expo-router/entry'
 import './unistyles'
 ```
-6. Replace the content of `app/_layout.tsx` with the following:
+6. Update `main` in `package.json` to point to `./index.ts`:
+```jsonc
+{
+  // ...
+  "main": "./index.ts",
+  // ...
+}
+```
+7. Replace the content of `app/_layout.tsx` with the following:
 ```tsx
 import { Text, View } from 'react-native';
 import { StyleSheet } from 'react-native-unistyles';
@@ -62,8 +70,8 @@ const styles = StyleSheet.create((theme, rt) => ({
     },
 }))
 ```
-7. `pnpm expo prebuild --clean`
-8. `pnpm expo run:android -d`
+8. `pnpm expo prebuild --clean`
+9. `pnpm expo run:android -d`
 
 ## Bugs encountered
 
