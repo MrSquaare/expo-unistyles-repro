@@ -11,11 +11,8 @@ export default function RootLayout() {
   );
 }
 
-const styles = StyleSheet.create((theme, rt) => ({
-    container: {
-        paddingTop: rt.insets.top,
-        paddingBottom: rt.insets.bottom,
-        paddingLeft: rt.insets.left,
-        paddingRight: rt.insets.right
-    },
-}))
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+})
