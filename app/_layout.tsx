@@ -1,5 +1,4 @@
-import { Text, View } from 'react-native';
-import { StyleSheet } from 'react-native-unistyles';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function RootLayout() {
   return (
