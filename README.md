@@ -1,14 +1,20 @@
 # expo-unistyles-repro
 
-## Pre-requisites
+## Reproduction
 
-### Quick reproduction initialization steps
+### Clean and quick reproduction
+
+> Only for Unix systems
+
+- `pnpm clean-start`
+
+### Quick reproduction
 
 1. `pnpm i`
 2. `pnpm expo prebuild --clean`
 3. `pnpm expo run:android -d`
 
-### Full reproduction initialization steps
+### Full reproduction
 
 1. `pnpm create expo-app .`
 2. `pnpm expo install react-native-unistyles@next react-native-nitro-modules@0.26.2 react-native-edge-to-edge`
