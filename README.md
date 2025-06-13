@@ -81,5 +81,5 @@ const styles = StyleSheet.create((theme, rt) => ({
 
 ## Bugs encountered
 
-- Reloading the app (using `r` in the terminal) makes the insets disappear.
-- Reloading the app (using `r` in the terminal) makes sometimes the app crash.
+- Reloading the app (using `r` in the terminal) makes the Mini Runtime lose top and bottom insets (status bar height and navigation bar height) values.
+- ~~Reloading the app (using `r` in the terminal) makes sometimes the app crash.~~ Fixed by `3.0.0-nightly-20250613`
